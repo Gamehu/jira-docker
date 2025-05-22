@@ -35,7 +35,7 @@ jira-docker
 - 宿主机安装 docker、docker-compose
 - 下载仓库： `git clone https://github.com/lyy289065406/jira-docker /usr/local/jira-docker`
 - 打开仓库目录： `cd /usr/local/jira-docker`
-- 构建镜像并运行： `docker-compose.yml up -d`
+- 构建镜像并运行： `docker-compose up -d`
 - 启动后，访问 [`http://localhost:8080`](http://localhost:8080) 打开 JIRA
 - 初次运行会跳转到 Setup 界面，选择 `I'll set it up myself`，然后点击 `Next`
 - 此时会要求配置数据库，选择 `My Own Database`，根据 `docker-compose.yml` 的配置填写数据库配置：
