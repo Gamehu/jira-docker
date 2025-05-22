@@ -33,6 +33,7 @@ jira-docker
 ## 部署步骤
 
 - 宿主机安装 docker、docker-compose
+- 下载mysql 5.x的驱动
 - 下载仓库： `git clone https://github.com/lyy289065406/jira-docker /usr/local/jira-docker`
 - 打开仓库目录： `cd /usr/local/jira-docker`
 - 构建镜像并运行： `docker-compose up -d`
